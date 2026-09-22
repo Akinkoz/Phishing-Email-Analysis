@@ -45,7 +45,8 @@ and to build the ability to explain, in plain terms, how to spot a phishing atte
 - **Why this matters:** This was used as a baseline to show what a properly
   authenticated, legitimate email looks like, so the phishing samples below can be
   meaningfully contrasted against it
-- **Evidence:** *[Insert your MXToolbox screenshot here]*
+- **Evidence:** **<img width="1522" height="657" alt="image" src="https://github.com/user-attachments/assets/975be726-74ba-4e68-af80-72d1ac787e4a" />
+
 
 ### Case 2: Phishing Sample — Failed Authentication (TryHackMe)
 - **Claimed to be:** *[Fill in what this email pretended to be — e.g. a bank, a
@@ -59,7 +60,8 @@ and to build the ability to explain, in plain terms, how to spot a phishing atte
 - **How to spot it:** A completely failed authentication result like this is one
   of the clearest technical signs of a spoofed sender; compared to Case 1 above,
   the contrast is stark
-- **Evidence:** *[Insert your MXToolbox screenshot here]*
+- **Evidence:** <img width="604" height="263" alt="image" src="https://github.com/user-attachments/assets/f60132b4-bc15-4763-a6bc-78acfe2f8e19" />
+
 
 ### Case 3: Phishing Sample — "URGENT: ParrotPost Account Update Required" (TryHackMe)
 - **Claimed to be:** An account security notification from "ParrotPost", sent from
@@ -87,13 +89,10 @@ and to build the ability to explain, in plain terms, how to spot a phishing atte
   mismatched domain, manufactured urgency, and an attachment standing in for
   what would normally be a link are all textbook phishing indicators — any one
   of these alone is suspicious, but together they make this a clear-cut case
-- **Evidence:** *[Insert your MXToolbox screenshot and the email screenshot here]*
+- **Evidence:** <img width="1535" height="757" alt="image" src="https://github.com/user-attachments/assets/3ad90604-5f8f-4451-8c1e-ef90f435b7ea" />
+<img width="837" height="622" alt="image" src="https://github.com/user-attachments/assets/9b4e5500-9558-4644-8df0-c71dcdc8b0fc" />
 
-## What I Learned
-*[Once all three cases are filled in with your real findings/evidence, write 3-5
-sentences here on what patterns you noticed across the samples, what surprised
-you, and how this changes how you'll personally spot phishing attempts going
-forward.]*
+
 
 ## Disclaimer
 All samples were inspected safely (headers and links only — no attachments opened,
