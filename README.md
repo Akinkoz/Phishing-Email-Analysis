@@ -92,7 +92,9 @@ and to build the ability to explain, in plain terms, how to spot a phishing atte
 - **Evidence:** <img width="1535" height="757" alt="image" src="https://github.com/user-attachments/assets/3ad90604-5f8f-4451-8c1e-ef90f435b7ea" />
 <img width="837" height="622" alt="image" src="https://github.com/user-attachments/assets/9b4e5500-9558-4644-8df0-c71dcdc8b0fc" />
 
+## What I Learned
 
+This project showed me how much technical evidence sits behind a phishing email that most users never see. Comparing a fully-authenticated legitimate email against the phishing samples made the contrast obvious — a clean SPF/DKIM/DMARC pass versus a complete authentication failure is one of the clearest, most reliable signals available, far more dependable than just "does this look suspicious" at a glance. I also learned that sender authentication is only part of the picture: Case 3 showed how an anonymous mailer service like emkei.lv can be used to spoof a sender address entirely, and how attackers use attachments instead of links specifically to dodge basic link-scanning tools. Going forward, I'll treat urgency language and mismatched sender domains as a prompt to check headers directly, rather than relying on instinct alone.
 
 ## Disclaimer
 All samples were inspected safely (headers and links only — no attachments opened,
